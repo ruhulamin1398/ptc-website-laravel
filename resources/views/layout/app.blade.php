@@ -70,7 +70,7 @@
                     <ul class="list-unstyled components mb-5">
 
                         <li>
-                            <a class=" text-dark nav-item active" href="#"> <i aria-hidden="true" class="v-icon v-icon--left  fas fa-home theme--light primary--text pr-4   "></i>Earn Robux</a>
+                            <a class=" text-dark nav-item active" href="{{route('index')}}"> <i aria-hidden="true" class="v-icon v-icon--left  fas fa-home theme--light primary--text pr-4   "></i>Earn Robux</a>
                         </li>
 
                         <li>
@@ -78,19 +78,19 @@
                         </li>
 
                         <li>
-                            <a class=" text-dark" href="#"> <i aria-hidden="true" class="v-icon v-icon--left  fas fa-bullhorn theme--light primary--text pr-4   "></i>Invite Friends</a>
+                            <a class=" text-dark" href="{{route('invite')}}"> <i aria-hidden="true" class="v-icon v-icon--left  fas fa-bullhorn theme--light primary--text pr-4   "></i>Invite Friends</a>
                         </li>
 
                         <li>
-                            <a class=" text-dark" href="#"> <i aria-hidden="true" class="v-icon v-icon--left  fas fa-question-circle theme--light primary--text pr-4   "></i>Help</a>
+                            <a class=" text-dark" href="{{route('help')}}"> <i aria-hidden="true" class="v-icon v-icon--left  fas fa-question-circle theme--light primary--text pr-4   "></i>Help</a>
                         </li>
 
                         <li>
-                            <a class=" text-dark" href="#"> <i aria-hidden="true" class="v-icon v-icon--left  fas fa-user-alt theme--light primary--text pr-4   "></i>Promo Code</a>
+                            <a class=" text-dark" href="{{route('promo')}}"> <i aria-hidden="true" class="v-icon v-icon--left  fas fa-user-alt theme--light primary--text pr-4   "></i>Promo Code</a>
                         </li>
 
                         <li>
-                            <a class=" text-dark" href="#"> <i aria-hidden="true" class="v-icon v-icon--left   fas fa-handshake  theme--light primary--text pr-4   "></i> Media Partners </a>
+                            <a class=" text-dark" href="{{route('media')}}"> <i aria-hidden="true" class="v-icon v-icon--left   fas fa-handshake  theme--light primary--text pr-4   "></i> Media Partners </a>
                         </li>
 
 
