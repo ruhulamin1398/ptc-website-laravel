@@ -26,7 +26,7 @@
                     <div class="v-input mt-0 v-text-field v-input--is-label-active v-input--is-dirty theme--light">
                         <div class="v-input__control">
                             <div class="v-input__slot">
-                                <div class="v-text-field__slot"><input type="number"></div>
+                                <div class="v-text-field__slot"><input type="number" min="1" value="1" ></div>
                             </div>
                             <div class="v-text-field__details">
                                 <div class="v-messages theme--light">
