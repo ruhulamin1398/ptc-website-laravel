@@ -197,9 +197,9 @@
             setInterval(
                 function() {
                     console.log(randomNumber(1200,1785));
-                    $("#robuxEarn").text(parseInt(((Date.now() - 1590326001115) / 220)));
-                    $("#robuxStock").text(parseInt(((Date.now() - 1590329001115) / 280)));
-                    $("#robuxOnline").text(randomNumber(1200,1785));
+                    $("#robuxEarn").text(parseInt(((Date.now() - 1590326001115) / 520)));
+                    $("#robuxStock").text(parseInt(((Date.now() - 1590329001115) / 680)));
+                        $("#robuxOnline").text(randomNumber(1000,2785));
 
 
 
