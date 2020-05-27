@@ -35,8 +35,10 @@
                             </div>
                         </div>
                     </div>
-                </div><button type="button" class="  v-btn theme--light primary bg-dark">
-                    <div class="v-btn__content ">Continue</div>
+                </div>
+                <div class="text-danger small " id="notEnoughBalance" >  You don't have enough points. 100 rbx required </div>
+                <button type="button" onclick=" $('#notEnoughBalance').show(); " class="  v-btn theme--light primary bg-dark">
+                    <div class="v-btn__content  ">Continue</div>
                 </button>
             </div>
         </div>

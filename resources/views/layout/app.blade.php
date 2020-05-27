@@ -176,6 +176,10 @@
 
     <script>
         $(document).ready(function() {
+
+            $('#notEnoughBalance').hide();
+
+            
             function totalRobuxChange() {
                 var link = "{{route('robux')}}";
 

@@ -1,0 +1,9 @@
+In media page also have text alignment error. Please check with all that.
+
+Please check this video section in Help page.
+Title page in help page.
+This banner in all pages seems like this.
+
+
+Please make this area responsive as well. It's like same the above robux earned sections when we change screen sizes. Please check and test and then update.
+Thanks.
