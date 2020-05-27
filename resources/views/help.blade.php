@@ -21,10 +21,10 @@
                 <ul class="v-expansion-panel theme--light">
                     <li tabindex="0" class="v-expansion-panel__container">
                         <div class="v-expansion-panel__header">
-                            <h2 class="btn btn-link text-dark" data-toggle="collapse" data-target="#headingThreee" aria-expanded="true" aria-controls="headingThreee" style="text-align: left; font-size:20px; font-weight : 600;  ">What Is RbxAdder?</h2>
+                            <h2 class="btn btn-link text-dark" data-toggle="collapse" data-target="#headingThreee121" aria-expanded="true" aria-controls="headingThreee121" style="text-align: left; font-size:20px; font-weight : 600;  ">What Is RbxAdder?</h2>
                             <div class="v-expansion-panel__header__icon"><i aria-hidden="true" class="v-icon fas fa-chevron-down theme--light"></i></div>
                         </div>
-                        <div id="headingThreee" class="collapse" aria-labelledby="headingThreee" >
+                        <div id="headingThreee121" class="collapse" aria-labelledby="headingThreee121" >
                             <div class="card-body " style=" font-size:16px; font-weight: 500; ">
                             RbxAdder is the most reliable service to earn free robux! we
                                     provide multiple options to our users by letting them complete
