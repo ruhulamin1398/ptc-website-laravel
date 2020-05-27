@@ -84,7 +84,7 @@
                 <i class="fa fa-bars"></i>
                 <span class="sr-only">Toggle Menu</span>
             </button>
-            <span class="h1 text-white "> Title </span>
+            <span class="h1 text-white "> RbxAdder </span>
 
         </div>
     </nav>
@@ -116,7 +116,7 @@
                                 <div class="v-input__control">
                                     <div class="v-input__slot">
                                         <div class="v-text-field__slot">
-                                            <input name="username" type="text" placeholder="User name "  >
+                                            <input name="username" type="text" placeholder="User name " required>
                                         </div>
                                     </div>
                                     <div class="v-text-field__details">
@@ -125,19 +125,8 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div><button data-v-41d03d86="" ctype="submit" type="button"  onclick="
-                            
-                            if(confirm(
-                                'All the robux you make will be sent to this username, so make sure its correct!'
-                                
-                                )){
-				document.getElementById('loginForm').submit();
-			}
-			else{
-				event.preventDefault();
-			}
-			"  class="v-btn v-btn--block theme--dark secondary">
-                                <div class="v-btn__content">Login</div>
+                            </div><button type="button" class="v-btn v-btn--block theme--dark secondary">
+                                <div class="v-btn__content" data-toggle="modal" data-target="#myModal">Login</div>
                             </button>
 
 
@@ -162,6 +151,38 @@
 
 
 
+
+
+
+
+
+    <!-- The Modal -->
+    <div class="modal fade" id="myModal" >
+        <div class="modal-dialog modal-dialog-centered" style="width: 300px;">
+            <div class="modal-content p-4">
+
+                <!-- Modal Header -->
+                <h4 class="modal-title p-4">Are you sure that's your username?</h4>
+
+
+                <!-- Modal body -->
+                <div class="p-4 small">
+                    All the robux you make will be sent to this username, so make sure its correct!
+                </div>
+                <!-- Modal footer -->
+            
+              
+                <div class="text-center" >
+                      
+                    <button type="button" class="btn pl-4 pr-4 text-success " data-dismiss="modal">NO</button>
+                    <button type="button" class="btn pl-4 pr-4 text-success "  onclick=" $('#loginForm').submit();" >YES</button>
+
+    </div>
+
+
+            </div>
+        </div>
+    </div>
 
 
 

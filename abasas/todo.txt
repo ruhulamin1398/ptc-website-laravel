@@ -7,3 +7,5 @@ This banner in all pages seems like this.
 
 Please make this area responsive as well. It's like same the above robux earned sections when we change screen sizes. Please check and test and then update.
 Thanks.
+
+Here default value should be 1 and there shouldn't be any negative value.

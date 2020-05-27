@@ -36,6 +36,9 @@ class PeopleController extends Controller
      */
     public function store(Request $request)
     {
+        if($request->username==''){
+            return back();
+        }
 
         session_start();
         $people = people::where('user_name', $request->username)->first();
